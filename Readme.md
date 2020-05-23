@@ -2,7 +2,7 @@
 
 ## 功能
 
-- [] Time Capsule
+- [ ] Time Capsule
 
 ## 目录说明
 1. bin - 服务启动入口  
