@@ -1,0 +1,30 @@
+{
+    "base": {
+        "port": 6789,
+        "domain": "",
+        "identityKey": "",
+        "secret": "",
+        "salt": "",
+        "name": ""
+    },
+    "file": {
+        "upload": "/public/upload/",
+        "fileurl": "/upload/",
+        "maxSize": 2
+    },
+    "db": {
+        "database": "time",
+        "dialect": "mysql",
+        "prefix": "time_",
+        "port": 3306,
+        "logging": true
+    },
+    "weixin": {
+        "appid": "",
+        "appsecret": "",
+        "encodingAESKey": "",
+        "token": "",
+        "checkSignature": false
+    }
+}
+
