@@ -1,20 +1,31 @@
+const Capsule = require('./capsule');
+
 let replyConfig = {
     text: {
         role: [
-
+            {
+                test: /来一颗/,
+                reply(content, openid) {
+                    return ''
+                }
+            }
         ],
         key: 'Content'
     },
     event: {
         role: [
-
+            {
+                test: 'subscribe',
+                reply: `欢迎关注！`
+            }
         ],
         key: 'Event'
     },
     action: {
 
     },
-    all: `Welcome
+    all: `时间胶囊指令：
+
     `
 };
 
